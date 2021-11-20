@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
 // import App from './App';
-import Navbar from "./Navbar";
+import Navbar from "./components/Navbar";
 import Home from "./routes/Home/Home";
 import Contact from "./routes/Contact/Contact";
 import Portfolio from "./routes/Portfolio/Portfolio"
