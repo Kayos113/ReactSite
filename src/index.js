@@ -1,12 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
+// import App from './App';
+import Navbar from "./Navbar";
+import Home from "./routes/Home/Home";
+import Contact from "./routes/Contact/Contact";
+import Portfolio from "./routes/Portfolio/Portfolio"
+import About from "./routes/About/About"
+import FourOhFour from "./routes/FourOhFour/FourOhFour";
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/*" element={<FourOhFour />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

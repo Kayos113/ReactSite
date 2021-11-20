@@ -1,0 +1,47 @@
+:root {
+  --ch-yellow: #F0A500;
+  --adb-tan: #F2D38F;
+  --adb-orange: #BD8100;
+  --adb-cocoa: #4D3400;
+  --ch-light-blue: #334756;
+  --ch-dark-blue: #082032;
+  --off-white: #DFEFFB;
+  --grey: #6D757A;
+  --black: #000000;
+}
+
+.topnav {
+  z-index: 5;
+}
+
+.navbar {
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--ch-dark-blue);
+}
+
+.nav-item {
+  display: inline-block;
+  color: var(--off-white);
+  text-align: center;
+  padding: 3vh 28px;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: var(--ch-light-blue);
+}
+
+.active {
+  background-color: var(--ch-yellow);
+  color: var(--black);
+  font-weight: 600;
+
+}
+.active:hover {
+  background-color: var(--adb-orange);
+}
