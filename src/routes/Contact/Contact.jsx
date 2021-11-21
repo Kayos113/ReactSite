@@ -9,21 +9,21 @@ function Contact() {
       <div>
 
         <div className="form-input">
-          <h3>Name</h3>
+          <label for="name">Name</label>
           <input type="text" id="name" />
         </div>
 
         <div className="form-input">
-          <h3>Email</h3>
-          <input type="email" id="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" />
         </div>
 
         <div className="form-input">
-          <h3>Subject</h3>
-          <input type="text" id="name" />
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" />
         </div>
 
-        <h3>Message</h3>
+        <label for="message-area">Message</label>
 
         <div className="form-submit">
           <textarea id="message-area" rows="8" cols="64" />
