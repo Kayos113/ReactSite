@@ -1,0 +1,26 @@
+:root {
+  --ch-yellow: #F0A500;
+  --adb-tan: #F2D38F;
+  --adb-orange: #BD8100;
+  --adb-cocoa: #4D3400;
+  --ch-light-blue: #334756;
+  --ch-dark-blue: #082032;
+  --off-white: #DFEFFB;
+  --grey: #6D757A;
+  --black: #000000;
+}
+
+.display-div {
+position: absolute;
+
+  background: linear-gradient(to bottom, var(--ch-light-blue), var(--ch-dark-blue));
+  mix-blend-mode:multiply;
+
+  color: var(--off-white);
+  text-align: left;
+  justify-content: center;
+
+  padding: 1rem 16rem 3rem 10rem;
+  top: 14rem;
+  border-radius: 0 15px 15px 0;
+}

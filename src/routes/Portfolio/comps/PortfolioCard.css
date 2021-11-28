@@ -1,0 +1,23 @@
+:root {
+  --ch-yellow: #F0A500;
+  --adb-tan: #F2D38F;
+  --adb-orange: #BD8100;
+  --adb-cocoa: #4D3400;
+  --ch-light-blue: #334756;
+  --ch-dark-blue: #082032;
+  --off-white: #DFEFFB;
+  --grey: #6D757A;
+  --black: #000000;
+}
+
+.card-div {
+  background-color: var(--ch-yellow);
+  color: var(--black);
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin-bottom: 25%;
+}
+
+.card-div:last-of-type{
+  margin-bottom: 0;
+}
