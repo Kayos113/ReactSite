@@ -1,0 +1,41 @@
+:root {
+  --ch-yellow: #F0A500;
+  --adb-tan: F2D38F;
+  --adb-orange: #BD8100;
+  --adb-cocoa: #4D3400;
+  --ch-light-blue: #334756;
+  --ch-dark-blue: #082032;
+  --off-white: #DFEFFB;
+  --grey: #6D757A;
+  --black: #000000;
+}
+
+
+body {
+  background-color: var(--off-white);
+}
+
+.bg-img {
+  background: url("../images/Lake.JPG") no-repeat;
+  background-size: cover;
+
+  /* Set rules to fill background */
+  min-height: 1024px;
+  min-width: 100%;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: absolute;
+  top: -87px;
+  left: 0;
+  z-index: -1;
+}
+
+#root {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
