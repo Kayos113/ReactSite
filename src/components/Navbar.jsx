@@ -58,10 +58,10 @@ function Navbar() {
   return (
   <div className = "topnav" >
     <div className = "navbar" >
-      <Link className="nav-item active" id="home" name="home" onClick={tabClick} to = "/ReactSite" > Home < /Link>
-      <Link className="nav-item" id="port" name="port" onClick={tabClick} to = "/ReactSite/portfolio" > Portfolio < /Link>
-      <Link className="nav-item" id="contact" name="contact" onClick={tabClick} to = "/ReactSite/contact" > Contact < /Link>
-      <Link className="nav-item" id="about" name="about" onClick={tabClick} to = "/ReactSite/about" > About < /Link>
+      <Link className="nav-item active" id="home" name="home" onClick={tabClick} to = "/" > Home < /Link>
+      <Link className="nav-item" id="port" name="port" onClick={tabClick} to = "/portfolio" > Portfolio < /Link>
+      <Link className="nav-item" id="contact" name="contact" onClick={tabClick} to = "/contact" > Contact < /Link>
+      <Link className="nav-item" id="about" name="about" onClick={tabClick} to = "/about" > About < /Link>
       <Link
         to = "*"
         element = {
