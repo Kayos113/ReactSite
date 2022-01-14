@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 
 // import App from './App';
@@ -15,17 +15,16 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
     <Navbar />
       <Routes>
-        <Route path="/ReactSite" element={<Home />} />
-        <Route path="/ReactSite/contact" element={<Contact />} />
-        <Route path="/ReactSite/portfolio" element={<Portfolio />} />
-        <Route path="/ReactSite/about" element={<About />} />
-        <Route path="/ReactSite/*" element={<FourOhFour />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
         <Route path="/*" element={<FourOhFour />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
