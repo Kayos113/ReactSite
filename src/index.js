@@ -15,7 +15,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter basename="/">
+    <HashRouter basename="">
     <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
