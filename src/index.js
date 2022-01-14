@@ -18,10 +18,11 @@ ReactDOM.render(
     <BrowserRouter>
     <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/ReactSite" element={<Home />} />
+        <Route path="/ReactSite/contact" element={<Contact />} />
+        <Route path="/ReactSite/portfolio" element={<Portfolio />} />
+        <Route path="/ReactSite/about" element={<About />} />
+        <Route path="/ReactSite/*" element={<FourOhFour />} />
         <Route path="/*" element={<FourOhFour />} />
       </Routes>
     </BrowserRouter>
