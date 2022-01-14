@@ -15,13 +15,13 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HashRouter>
+    <HashRouter basename="/">
     <Navbar />
       <Routes>
-        <Route path="/ReactSite" element={<Home />} />
-        <Route path="/ReactSite/contact" element={<Contact />} />
-        <Route path="/ReactSite/portfolio" element={<Portfolio />} />
-        <Route path="/ReactSite/about" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/about" element={<About />} />
         <Route path="/*" element={<FourOhFour />} />
       </Routes>
     </HashRouter>
