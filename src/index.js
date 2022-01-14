@@ -18,11 +18,11 @@ ReactDOM.render(
     <HashRouter basename="">
     <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/*" element={<FourOhFour />} />
+        <Route path="" element={<Home />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="about" element={<About />} />
+        <Route path="*" element={<FourOhFour />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>,
