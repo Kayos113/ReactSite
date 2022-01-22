@@ -1,0 +1,22 @@
+:root {
+  --ch-yellow: #F0A500;
+  --adb-tan: F2D38F;
+  --adb-orange: #BD8100;
+  --adb-cocoa: #4D3400;
+  --ch-light-blue: #334756;
+  --ch-dark-blue: #082032;
+  --off-white: #DFEFFB;
+  --grey: #6D757A;
+  --black: #000000;
+}
+
+
+body {
+  background-color: var(--off-white);
+}
+
+#root {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
