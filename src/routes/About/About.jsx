@@ -1,9 +1,13 @@
 import React from "react";
+import "./About.css";
+import AboutInfo from "./aboutInfo";
 
 function About() {
   return (
     <div>
-      <h1>About</h1>
+      <h1>{AboutInfo.textOne}</h1>
+      <p>{AboutInfo.textTwo}</p>
+      <p>{AboutInfo.textThree}</p>
     </div>
   )
 }
